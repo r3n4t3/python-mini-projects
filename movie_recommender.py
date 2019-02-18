@@ -71,7 +71,6 @@ if __name__ == "__main__":
     else:
         for line in page_content:
             temp = str(line).split('>')
-            print(temp)
             if(len(temp) == 3):
                 print(temp[1][:-3])
             if (count > 11):
